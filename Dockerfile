@@ -18,7 +18,7 @@ RUN adduser -u 8080 -D -S -h /data/www -G www www
 RUN rm -rf /var/cache/apk/* && \
     rm -rf /tmp/*
 
-ADD docker-files /
+ADD container-files /
 
 EXPOSE 80 443
 
