@@ -18,7 +18,7 @@ RUN adduser -u 8080 -D -S -h /data/www -G www www
 RUN rm -rf /var/cache/apk/* && \
     rm -rf /tmp/*
 
-ADD container-files /
+ADD /container-files/etc /etc
 
 EXPOSE 80 443
 
