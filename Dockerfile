@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:edge
 MAINTAINER Johannes Steu <js@johannessteu.de>
 
 # Install packages
